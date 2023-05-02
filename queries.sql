@@ -1,6 +1,6 @@
 /*Queries that provide answers to the questions from all projects.*/
 
-SELECT * FROM animals WHERE name LIKE '%mon';
+SELECT * FROM animals WHERE name LIKE '%mon%';
 
 SELECT name FROM animals WHERE date_of_birth BETWEEN '2016-1-1' AND '2019-12-31';
 
