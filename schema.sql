@@ -31,3 +31,28 @@ ADD species_id INT,
 ADD owner_id INT,
 ADD CONSTRAINT fk_species FOREIGN KEY(species_id) REFERENCES species(id),
 ADD CONSTRAINT fk_owners FOREIGN KEY(owner_id) REFERENCES owners(id);
+
+DROP TABLE IF EXISTS vets;
+CREATE TABLE vets(
+    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    name VARCHAR(100),
+    age INTEGER,
+    date_of_graduation DATE
+);
+
+DROP TABLE IF EXISTS specilizations;
+CREATE TABLE specializations(
+  id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  species_id INT,
+  vet_id INT,
+  FOREIGN KEY(species_id) REFERENCES species(id),
+  FOREIGN KEY(vet_id) REFERENCES vets(id)
+);
+
+DROP TABLE IF EXISTS visits;
+CREATE TABLE visits(
+    id INT GENERATED ALWAYS AS IDENTITY,
+    vets_id INT REFERENCES vets(id),
+	  animals_id INT REFERENCES animals(id),
+    date_of_visit DATE
+);
