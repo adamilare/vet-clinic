@@ -63,7 +63,7 @@ ALTER TABLE owners
 
 
 -- Create indexes
-CREATE INDEX animal_id ON visits(animal_id ASC)
+CREATE INDEX animal_id ON visits(animal_id ASC);
 
 CREATE INDEX vet_id ON visits(vet_id) ASC;
 
