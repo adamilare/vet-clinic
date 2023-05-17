@@ -104,6 +104,12 @@ N/A
 - LinkedIn: [LinkedIn](https://linkedin.com/in/adamilare)
 - GitUp Page: [My Page](https://adamilare.github.io/)
 
+👤 **Jean Jacques Buhendwa**
+
+- GitHub: [@jeanbuhendwa](https://github.com/jeanbuhendwa)
+- Twitter: [@jeanbuhendwa](https://twitter.com/jeanjacqueI)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/johnbuhendwa/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 🔭 Future Features <a name="future-features"></a>
 
